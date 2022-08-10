@@ -63,7 +63,8 @@ p a:hover {
 }
 
 article .isi_artikel figure {
-    margin: 0 10px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .isi_artikel img {
@@ -159,6 +160,10 @@ footer {
 @media screen and (max-width: 768px) {
     .container .menu {
         padding-left: 0;
+    }
+
+    .container .row aside {
+        margin-top: 10px;
     }
 
     .container .main figure {
