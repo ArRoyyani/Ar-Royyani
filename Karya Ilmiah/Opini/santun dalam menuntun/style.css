@@ -59,7 +59,6 @@ article .isi_artikel p {
 
 article .isi_artikel figure {
   width: 100%;
-  margin-bottom: 10px;
 }
 
 .isi_artikel img {
@@ -81,16 +80,49 @@ article .isi_artikel figcaption {
 
 article .isi_artikel figcaption a {
   text-decoration: none;
+  color: green;
 }
 
-.seksi article a {
+.link-atas a {
   color: green;
+}
+
+.link-atas a:hover {
+  color: lightgreen;
 }
 
 /* === BAGIAN SIDEBAR === */
 .container .row aside {
   margin-top: 110px;
 }
+
+.d-block {
+  height: 250px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.d-block:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.card .card-body p {
+  text-align: center;
+}
+
+aside .card a {
+  color: green;
+}
+
+aside .card a:hover {
+  color: lightgreen;
+}
+
+.sidebar {
+  margin-top: 15px;
+}
+
 aside h1 {
   text-align: center;
   font-size: 26px;
@@ -134,6 +166,7 @@ aside .isi_sidebar section p {
   background-color: aliceblue;
   border-radius: 20px 20px 0px 0px;
   border-top: 3px solid white;
+  margin-top: 10px;
 }
 
 .container .footer h3 {
@@ -153,8 +186,8 @@ p a:hover {
   color: black;
 }
 
-footer {
-  padding: 10px 0;
+.footer1 {
+  padding: 5px 0 10px 0;
 }
 
 /* === BAGIAN RESPONSIVE === */
@@ -165,7 +198,7 @@ footer {
   }
 
   .container .row aside {
-    margin-top: 0;
+    margin-top: 15px;
   }
 
   .container .main figure {
@@ -178,11 +211,7 @@ footer {
     height: 200px;
   }
 
-  .container .row .hilang {
-    display: block;
-  }
-
-  footer {
+  .footer1 {
     font-size: 12px;
   }
 }
