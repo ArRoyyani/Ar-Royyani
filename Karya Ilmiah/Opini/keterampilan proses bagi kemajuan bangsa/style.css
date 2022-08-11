@@ -122,12 +122,6 @@ aside .card a:hover {
   margin-top: 15px;
 }
 
-aside h1 {
-  text-align: center;
-  font-size: 26px;
-  color: rgb(1, 85, 1);
-}
-
 aside .isi_sidebar section h2 {
   text-align: center;
   font-size: 22px;
@@ -165,7 +159,7 @@ aside .isi_sidebar section p {
   background-color: aliceblue;
   border-radius: 20px 20px 0px 0px;
   border-top: 3px solid white;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .container .footer h3 {
